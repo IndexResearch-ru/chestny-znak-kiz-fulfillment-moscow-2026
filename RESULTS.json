@@ -1,202 +1,537 @@
 {
-  "research_id": "INDEX-T054",
-  "research_family": "PREP-T026",
-  "version": "1.0.0",
-  "data_cutoff": "2026-11-02",
-  "methodology": "EVIDENCE-SCENARIOS-1.0",
-  "format": "NON_RANKED_EVIDENCE_MAP",
-  "candidate_offers": 20,
-  "included_standard": 13,
-  "conditional_large_3pl": 1,
-  "not_included": 6,
-  "evidence_cells": 180,
-  "source_urls": 31,
-  "traceable_claims": 115,
-  "score_or_rank_published": false,
+  "metadata": {
+    "research_id": "INDEX-T054",
+    "research_family": "PREP-T026",
+    "publisher": "IndexResearch",
+    "status": "PUBLISH_APPROVED",
+    "methodology": "EVIDENCE-SCENARIOS-1.0",
+    "methodologyFrozenAt": "2026-11-02T12:33:34+03:00",
+    "dataCutoff": "2026-11-02",
+    "publicationDecision": "PUBLISH",
+    "format": "NON_RANKED_EVIDENCE_MAP",
+    "candidateOffers": 20,
+    "includedStandard": 13,
+    "conditionalLarge3PL": 1,
+    "notEligible": 6,
+    "evidenceCells": 180,
+    "publishedScores": false,
+    "claimTypes": [
+      "official_provider_self_description",
+      "open_source_gap",
+      "conditional_contract"
+    ],
+    "limitations": [
+      "Качество и SLA не проверены контрольными заказами",
+      "Состав сторон в ГИС МТ зависит от товарной группы и полномочий",
+      "Неизвестное не равно отсутствующей услуге"
+    ],
+    "connectedCompany": "Преп-Центр (клиент GAEO)",
+    "founderLink": "IndexResearch и GAEO связаны через сооснователя Алексея Яковлева",
+    "version": "1.0.0",
+    "releaseDate": "2026-11-02",
+    "canonicalUrl": "https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026",
+    "editorialApproval": "Одобрение Марии Яковлевой передано Алексеем Яковлевым 02.11.2026; исходное сообщение независимо не проверено."
+  },
+  "methodology_evidence": "METHODOLOGY.md",
   "scenarios": [
     {
       "id": "S1",
-      "name": "Физическое нанесение уникальных КИЗ",
+      "name": "Физическое нанесение индивидуальных КИЗ",
       "required_criteria": [
         "M1"
       ],
+      "limitations": "Готовые уникальные коды по конкретному товару; договором уточняются материалы и статус кода.",
+      "standard_count": 13,
+      "conditional_large_3pl_count": 1,
       "standard": [
         {
           "candidate_id": "C19",
-          "provider": "4-PACK"
+          "provider": "4-PACK",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://4-pack.ru/markirovka-chestniy-znak",
+              "fact": "Печать и физическое нанесение Data Matrix выделены в конкретной услуге и прайсе."
+            }
+          }
         },
         {
           "candidate_id": "C26",
-          "provider": "Easyful"
+          "provider": "Easyful",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://easyful.ru/uslugi",
+              "fact": "Easyful выделяет стикерование КИЗ от 4 ₽ и сканирование КИЗ от 2 ₽ как разные тарифные операции; результаты сканирования документально не представлены."
+            }
+          }
         },
         {
           "candidate_id": "C16",
-          "provider": "FFBaza"
+          "provider": "FFBaza",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://ffbaza.ru/services/chestnyy-znak",
+              "fact": "Публично описаны нанесение и сканирование КИЗ, условия партии и 2 пары тарифных строк."
+            }
+          }
         },
         {
           "candidate_id": "C03",
-          "provider": "Full-Fix"
+          "provider": "Full-Fix",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "E",
+              "source_url": "https://full-fix.ru/",
+              "fact": "На главной заявлены приемка, физическая маркировка и отгрузка товаров с кодами."
+            }
+          }
         },
         {
           "candidate_id": "C22",
-          "provider": "ФуллБокс"
+          "provider": "ФуллБокс",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://fullbox.ru/services/chestny-znak/",
+              "fact": "Нанесение Data Matrix, сканирование и отдельная складская услуга описаны подробно."
+            }
+          }
         },
         {
           "candidate_id": "C10",
-          "provider": "Fulllog"
+          "provider": "Fulllog",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://fulllog.ru/markirovka",
+              "fact": "За 8 ₽/ед. заявлены печать и физическое нанесение КИЗ на складе."
+            }
+          }
         },
         {
           "candidate_id": "C35",
-          "provider": "Фулмаркет (ful-market.ru)"
+          "provider": "Фулмаркет (ful-market.ru; distinct from fulfmarket.com)",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "E",
+              "source_url": "https://ful-market.ru/",
+              "fact": "Официальный прайс указывает физическую наклейку стикера на товар, включая «Честный знак». Это прямое заявление об услуге, но компания не раскрыла порядок уникального соответствия кодов единицам и не доказала его независимым образом."
+            }
+          }
         },
         {
           "candidate_id": "C06",
-          "provider": "Helpberries"
+          "provider": "Helpberries",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov",
+              "fact": "Компания описывает получение файла, печать и физическое нанесение Data Matrix в складской обработке."
+            }
+          }
         },
         {
           "candidate_id": "C05",
-          "provider": "Major Terminal"
+          "provider": "Major Terminal",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://major-terminal.ru/services/marking-chestny-znak/?lang=ru",
+              "fact": "Есть специализированная услуга нанесения Data Matrix на товар на своем складе."
+            }
+          }
         },
         {
           "candidate_id": "C01",
-          "provider": "Преп-Центр"
+          "provider": "Преп-Центр",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://prep-center.ru/chestnyy-znak/",
+              "fact": "Публикуются печать/нанесение готовых КИЗ за 7 ₽ и отдельная физическая обработка партии."
+            }
+          }
         },
         {
           "candidate_id": "C17",
-          "provider": "Re-stok"
+          "provider": "Re-stok",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://re-stok.ru/",
+              "fact": "Re-stok отдельно указывает нанесение ранее предоставленного кода «Честного знака» на единицу за 9 ₽; не смешивать с общей «двойной маркировкой» обычными ярлыками."
+            }
+          }
         },
         {
           "candidate_id": "C09",
-          "provider": "СДЭК Фулфилмент"
+          "provider": "СДЭК Фулфилмент",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "E",
+              "source_url": "https://ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov",
+              "fact": "СДЭК Фулфилмент прямо предлагает нанесение кодов «Честный знак» на товары по техническому заданию. Отдельные отчеты об индивидуальных КИЗ и транспортной агрегации по источнику не установлены."
+            }
+          }
         },
         {
           "candidate_id": "C23",
-          "provider": "U2Pack"
+          "provider": "U2Pack",
+          "group": "standard",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://u2pack.ru/upakovka-tovara/markirovka-tovarov/",
+              "fact": "Страница У2Pack описывает физическое нанесение кодов маркировки по переданному заданию."
+            }
+          }
         }
       ],
       "conditional_large_3pl": [
         {
           "candidate_id": "C20",
-          "provider": "RFL"
+          "provider": "RFL",
+          "group": "large_3pl_conditional",
+          "evidence": {
+            "M1": {
+              "grade": "D",
+              "source_url": "https://rfl.ru/markirovka-chestnyy-znak/",
+              "fact": "На странице описаны физическое нанесение, сверка и обработка в стоке на складе."
+            }
+          }
         }
       ]
     },
     {
       "id": "S2",
-      "name": "Дублирование исходного кода на индивидуальной внешней упаковке",
+      "name": "Дубль исходного КИЗ на индивидуальную защитную упаковку",
       "required_criteria": [
         "M2"
       ],
+      "limitations": "Тот же код одной товарной единицы; это не отдельный код для грузового места.",
+      "standard_count": 2,
+      "conditional_large_3pl_count": 0,
       "standard": [
         {
           "candidate_id": "C19",
-          "provider": "4-PACK"
+          "provider": "4-PACK",
+          "group": "standard",
+          "evidence": {
+            "M2": {
+              "grade": "D",
+              "source_url": "https://4-pack.ru/markirovka-chestniy-znak",
+              "fact": "Four Pack прямо описывает перенос исходного Data Matrix на наружную индивидуальную упаковку той же единицы и отделяет его от транспортного короба с несколькими товарами."
+            }
+          }
         },
         {
           "candidate_id": "C01",
-          "provider": "Преп-Центр"
+          "provider": "Преп-Центр",
+          "group": "standard",
+          "evidence": {
+            "M2": {
+              "grade": "D",
+              "source_url": "https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/",
+              "fact": "Сервис описывает внешний дубль того же кода и собственный кейс с партией 3 186 ополаскивателей; внешней проверки нет."
+            }
+          }
         }
       ],
       "conditional_large_3pl": []
     },
     {
       "id": "S3",
-      "name": "Сканирование КИЗ и учет кодов",
+      "name": "Сканирование индивидуальных КИЗ и кодовая отчетность",
       "required_criteria": [
         "M3",
         "M4"
       ],
+      "limitations": "Требуется сверить формат выгрузки клиенту; общая WMS не равна файлу по кодам.",
+      "standard_count": 8,
+      "conditional_large_3pl_count": 1,
       "standard": [
         {
           "candidate_id": "C03",
-          "provider": "Full-Fix"
+          "provider": "Full-Fix",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://full-fix.ru/wms/",
+              "fact": "Схема двухэтапного сканирования «товар → КИЗ» и проверки кода описана на странице WMS."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://full-fix.ru/wms/",
+              "fact": "Указан журнал операций с КИЗ и мониторинг в собственной WMS; клиентский экспорт нужно подтвердить."
+            }
+          }
         },
         {
           "candidate_id": "C22",
-          "provider": "ФуллБокс"
+          "provider": "ФуллБокс",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://fullbox.ru/services/chestny-znak/",
+              "fact": "Описан контроль читаемости/статуса КИЗ на приемке и после нанесения."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://fullbox.ru/services/chestny-znak/",
+              "fact": "Компания заявляет передачу сведений в ЧЗ и подготовку УПД; полномочия отдельно не проверены."
+            }
+          }
         },
         {
           "candidate_id": "C10",
-          "provider": "Fulllog"
+          "provider": "Fulllog",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "E",
+              "source_url": "https://fulllog.ru/markirovka",
+              "fact": "Указан контроль кода при нанесении, без публичного образца результата."
+            },
+            "M4": {
+              "grade": "E",
+              "source_url": "https://fulllog.ru/markirovka",
+              "fact": "Заявлен поштучный учет нанесенных кодов и возврат товара в остатки, отчет проверить отдельно."
+            }
+          }
         },
         {
           "candidate_id": "C06",
-          "provider": "Helpberries"
+          "provider": "Helpberries",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov",
+              "fact": "Приведены шаги сканирования при приемке и контроля правильности кодов."
+            },
+            "M4": {
+              "grade": "E",
+              "source_url": "https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov",
+              "fact": "Заявлены сопоставление с документами и учет кодов, без подтвержденного образца реестра партии."
+            }
+          }
         },
         {
           "candidate_id": "C05",
-          "provider": "Major Terminal"
+          "provider": "Major Terminal",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://major-terminal.ru/services/marking-chestny-znak-footwear/",
+              "fact": "Отдельно описаны считывание, верификация и нанесение кодов."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://major-terminal.ru/services/marking-chestny-znak-footwear/",
+              "fact": "Заявлены отчет о нанесенных кодах, собственная WMS и взаимодействие с клиентом."
+            }
+          }
         },
         {
           "candidate_id": "C01",
-          "provider": "Преп-Центр"
+          "provider": "Преп-Центр",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://prep-center.ru/chestnyy-znak/",
+              "fact": "Поштучное сканирование, проверка кода и учет этапов в WMS описаны на странице услуги."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://prep-center.ru/cases/agregatsiya-kiz-naborov-wms/",
+              "fact": "Технологический пример компании: WMS связывает вложения и код набора, клиенту доступен файл соответствий; исходный кодовый экспорт публично не проверен."
+            }
+          }
         },
         {
           "candidate_id": "C17",
-          "provider": "Re-stok"
+          "provider": "Re-stok",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://re-stok.ru/",
+              "fact": "Отдельное сканирование за 3 ₽, проверка при приемке/сборке."
+            },
+            "M4": {
+              "grade": "E",
+              "source_url": "https://re-stok.ru/tseny/",
+              "fact": "Заявлена подача сведений/обновление статуса, договорные полномочия и отчет неизвестны."
+            }
+          }
         },
         {
           "candidate_id": "C23",
-          "provider": "U2Pack"
+          "provider": "U2Pack",
+          "group": "standard",
+          "evidence": {
+            "M3": {
+              "grade": "E",
+              "source_url": "https://u2pack.ru/upakovka-tovara/markirovka-tovarov/",
+              "fact": "Сканирование кодов для агрегации названо, контроль статуса каждой единицы не раскрыт."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://u2pack.ru/upakovka-tovara/markirovka-tovarov/",
+              "fact": "Заявлены формирование файла связей и обмен документами; конкретный образец не приведен."
+            }
+          }
         }
       ],
       "conditional_large_3pl": [
         {
           "candidate_id": "C20",
-          "provider": "RFL"
+          "provider": "RFL",
+          "group": "large_3pl_conditional",
+          "evidence": {
+            "M3": {
+              "grade": "D",
+              "source_url": "https://rfl.ru/markirovka-chestnyy-znak/",
+              "fact": "Есть сверка и контроль маркировки в складской цепочке."
+            },
+            "M4": {
+              "grade": "D",
+              "source_url": "https://rfl.ru/markirovka-chestnyy-znak/",
+              "fact": "Описаны реестр агрегатов и фиксация кодов при обработке партий."
+            }
+          }
         }
       ]
     },
     {
       "id": "S4",
-      "name": "Кодовая привязка вложений потребительского набора",
+      "name": "Маркированные наборы: соответствия кодов вложений",
       "required_criteria": [
         "M5"
       ],
+      "limitations": "Отдельный потребительский набор, не КИТУ; регистрация в ГИС МТ не следует из WMS.",
+      "standard_count": 1,
+      "conditional_large_3pl_count": 0,
       "standard": [
         {
           "candidate_id": "C01",
-          "provider": "Преп-Центр"
+          "provider": "Преп-Центр",
+          "group": "standard",
+          "evidence": {
+            "M5": {
+              "grade": "D",
+              "source_url": "https://prep-center.ru/cases/agregatsiya-kiz-naborov-wms/",
+              "fact": "Кейс Преп-Центра описывает сканирование КИЗ 2 вложений, привязку в WMS МПФИТ к коду набора и выдачу файла соответствий. Регистрация набора в ГИС МТ остается на клиенте; объем товарной партии неизвестен."
+            }
+          }
         }
       ],
       "conditional_large_3pl": []
     },
     {
       "id": "S5",
-      "name": "Транспортная агрегация по КИТУ и SSCC",
+      "name": "Транспортная агрегация по КИТУ/SSCC",
       "required_criteria": [
         "M6"
       ],
+      "limitations": "Взаимосвязь кодов вложений и короба/паллеты; передачу сведений в ГИС МТ согласуют отдельно.",
+      "standard_count": 5,
+      "conditional_large_3pl_count": 1,
       "standard": [
         {
           "candidate_id": "C03",
-          "provider": "Full-Fix"
+          "provider": "Full-Fix",
+          "group": "standard",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://full-fix.ru/wms/",
+              "fact": "WMS заявляет агрегацию КИЗ по уровням короб/паллета; факт передачи документа в ГИС МТ отдельно не доказан."
+            }
+          }
         },
         {
           "candidate_id": "C22",
-          "provider": "ФуллБокс"
+          "provider": "ФуллБокс",
+          "group": "standard",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://fullbox.ru/services/chestny-znak/",
+              "fact": "ФуллБокс заявляет агрегацию индивидуальных Data Matrix в транспортные короба и паллеты; сам сайт не заменяет независимого подтверждения загрузки и принятия документов ГИС МТ."
+            }
+          }
         },
         {
           "candidate_id": "C06",
-          "provider": "Helpberries"
+          "provider": "Helpberries",
+          "group": "standard",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov",
+              "fact": "Описана агрегация индивидуальных кодов в транспортные короба."
+            }
+          }
         },
         {
           "candidate_id": "C05",
-          "provider": "Major Terminal"
+          "provider": "Major Terminal",
+          "group": "standard",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://major-terminal.ru/services/marking-chestny-znak-footwear/",
+              "fact": "Складская агрегированная транспортная обработка и групповые упаковки прямо описаны, прежде всего для обуви."
+            }
+          }
         },
         {
           "candidate_id": "C23",
-          "provider": "U2Pack"
+          "provider": "U2Pack",
+          "group": "standard",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://u2pack.ru/upakovka-tovara/markirovka-tovarov/",
+              "fact": "U2Pack прямо заявляет связь SGTIN с SSCC и подготовку файлов транспортной агрегации; условия отправки в ГИС МТ необходимо согласовать отдельно."
+            }
+          }
         }
       ],
       "conditional_large_3pl": [
         {
           "candidate_id": "C20",
-          "provider": "RFL"
+          "provider": "RFL",
+          "group": "large_3pl_conditional",
+          "evidence": {
+            "M6": {
+              "grade": "D",
+              "source_url": "https://rfl.ru/markirovka-chestnyy-znak/",
+              "fact": "Объявлены короба/паллеты с агрегированием кодов на складе."
+            }
+          }
         }
       ]
     }
   ],
-  "disclosure": "Преп-Центр — клиент GAEO; у GAEO и IndexResearch общий сооснователь Алексей Яковлев.",
-  "editorial_approval": "Мария Яковлева одобрила выпуск со слов Алексея Яковлева 02.11.2026; первичное сообщение не просмотрено."
+  "technical_note": "Неранжированное сравнение по официальным источникам; без баллов, мест и независимого аудита."
 }

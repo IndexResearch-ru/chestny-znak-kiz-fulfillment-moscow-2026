@@ -1,0 +1,116 @@
+claim_id,candidate_id,provider,metric,grade,summary,source_id,source_url,independent_confirmation,date
+F001,C01,Преп-Центр,M1,D,Публикуются печать/нанесение готовых КИЗ за 7 ₽ и отдельная физическая обработка партии.,S022,https://prep-center.ru/chestnyy-znak/,no,2026-11-02
+F002,C01,Преп-Центр,M2,D,Сервис описывает внешний дубль того же кода и собственный кейс с партией 3 186 ополаскивателей; внешней проверки нет.,S021,https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/,no,2026-11-02
+F003,C01,Преп-Центр,M3,D,"Поштучное сканирование, проверка кода и учет этапов в WMS описаны на странице услуги.",S022,https://prep-center.ru/chestnyy-znak/,no,2026-11-02
+F004,C01,Преп-Центр,M4,D,"Технологический пример компании: WMS связывает вложения и код набора, клиенту доступен файл соответствий; исходный кодовый экспорт публично не проверен.",S020,https://prep-center.ru/cases/agregatsiya-kiz-naborov-wms/,no,2026-11-02
+F005,C01,Преп-Центр,M5,D,"Кейс Преп-Центра описывает сканирование КИЗ 2 вложений, привязку в WMS МПФИТ к коду набора и выдачу файла соответствий. Регистрация набора в ГИС МТ остается на клиенте; объем товарной партии неизвестен.",S020,https://prep-center.ru/cases/agregatsiya-kiz-naborov-wms/,no,2026-11-02
+F006,C01,Преп-Центр,M7,D,"Описаны упаковка ВПП/термоусадкой, этикетки и подготовка FBO/FBS после нанесения КИЗ.",S022,https://prep-center.ru/chestnyy-znak/,no,2026-11-02
+F007,C01,Преп-Центр,M8,D,Самоописанный кейс партии 3 186 единиц внутри модельного диапазона; независимого контроля производительности нет.,S021,https://prep-center.ru/cases/opolaskivateli-3186-za-2-dnya/,no,2026-11-02
+F008,C01,Преп-Центр,M9,D,За нанесение и дублирование отдельные 7 ₽/шт. без НДС; иные операции оплачиваются отдельно.,S022,https://prep-center.ru/chestnyy-znak/,no,2026-11-02
+F009,C03,Full-Fix,M1,E,"На главной заявлены приемка, физическая маркировка и отгрузка товаров с кодами.",S010,https://full-fix.ru/,no,2026-11-02
+F010,C03,Full-Fix,M3,D,Схема двухэтапного сканирования «товар → КИЗ» и проверки кода описана на странице WMS.,S011,https://full-fix.ru/wms/,no,2026-11-02
+F011,C03,Full-Fix,M4,D,Указан журнал операций с КИЗ и мониторинг в собственной WMS; клиентский экспорт нужно подтвердить.,S011,https://full-fix.ru/wms/,no,2026-11-02
+F012,C03,Full-Fix,M6,D,WMS заявляет агрегацию КИЗ по уровням короб/паллета; факт передачи документа в ГИС МТ отдельно не доказан.,S011,https://full-fix.ru/wms/,no,2026-11-02
+F013,C03,Full-Fix,M7,D,"Компания описывает приемку, упаковку и отгрузки WB/Ozon из собственного московского склада.",S010,https://full-fix.ru/,no,2026-11-02
+F014,C03,Full-Fix,M8,G,"Общее заявление о производительности склада, без подтвержденного размера конкретной маркировочной партии.",S010,https://full-fix.ru/,no,2026-11-02
+F015,C04,fulfil.pro,M1,G,"Прямо прочитанная версия официальной главной fulfil.pro говорит об обычной маркировке маркетплейсов, но не подтверждает уникальный КИЗ. Ранее поисковая выдержка с «Честным знаком» расходилась с текущей версией: недоказанную операцию в E не повышать.",S008,https://fulfil.pro/,no,2026-11-02
+F016,C04,fulfil.pro,M4,G,"На сайте есть WMS и учет движения товаров, но связь с индивидуальными КИЗ не показана.",S008,https://fulfil.pro/,no,2026-11-02
+F017,C04,fulfil.pro,M7,D,"Сайт описывает складские FBO/FBS, упаковку и отправку на маркетплейсы.",S008,https://fulfil.pro/,no,2026-11-02
+F018,C04,fulfil.pro,M8,G,Заявлена мощность общей упаковки; готовность отдельной маркировочной партии не проверена.,S008,https://fulfil.pro/,no,2026-11-02
+F019,C04,fulfil.pro,M9,G,"На сайте опубликованы общие стартовые ставки, не состав операции с КИЗ.",S008,https://fulfil.pro/,no,2026-11-02
+F020,C05,Major Terminal,M1,D,Есть специализированная услуга нанесения Data Matrix на товар на своем складе.,S016,https://major-terminal.ru/services/marking-chestny-znak/?lang=ru,no,2026-11-02
+F021,C05,Major Terminal,M3,D,"Отдельно описаны считывание, верификация и нанесение кодов.",S015,https://major-terminal.ru/services/marking-chestny-znak-footwear/,no,2026-11-02
+F022,C05,Major Terminal,M4,D,"Заявлены отчет о нанесенных кодах, собственная WMS и взаимодействие с клиентом.",S015,https://major-terminal.ru/services/marking-chestny-znak-footwear/,no,2026-11-02
+F023,C05,Major Terminal,M5,G,"Упоминается маркировка наборов/комплектов, но связь кодов вложений для потребительского набора не раскрыта.",S015,https://major-terminal.ru/services/marking-chestny-znak-footwear/,no,2026-11-02
+F024,C05,Major Terminal,M6,D,"Складская агрегированная транспортная обработка и групповые упаковки прямо описаны, прежде всего для обуви.",S015,https://major-terminal.ru/services/marking-chestny-znak-footwear/,no,2026-11-02
+F025,C05,Major Terminal,M7,E,Складские операции и отгрузка описаны; FBO/FBS конкретной категории требуют проверки.,S016,https://major-terminal.ru/services/marking-chestny-znak/?lang=ru,no,2026-11-02
+F026,C05,Major Terminal,M8,G,"Названы крупные мощности, но нет подтвержденного допущения стандартной партии 1 000–10 000 мелких единиц.",S015,https://major-terminal.ru/services/marking-chestny-znak-footwear/,no,2026-11-02
+F027,C06,Helpberries,M1,D,"Компания описывает получение файла, печать и физическое нанесение Data Matrix в складской обработке.",S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F028,C06,Helpberries,M3,D,Приведены шаги сканирования при приемке и контроля правильности кодов.,S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F029,C06,Helpberries,M4,E,"Заявлены сопоставление с документами и учет кодов, без подтвержденного образца реестра партии.",S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F030,C06,Helpberries,M6,D,Описана агрегация индивидуальных кодов в транспортные короба.,S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F031,C06,Helpberries,M7,D,Услуга привязана к упаковке и поставкам на Wildberries/Ozon.,S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F032,C06,Helpberries,M8,G,"Есть общие ориентиры объема, но не подтвержден подходящий минимум и срок для модели.",S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F033,C06,Helpberries,M9,D,"Заявлена цена 5–15 ₽/шт. за печать/нанесение, с оговорками по объему и материалам.",S014,https://helpberries.ru/markirovka-chestnyy-znak-dlya-marketpleysov,no,2026-11-02
+F034,C09,СДЭК Фулфилмент,M1,E,СДЭК Фулфилмент прямо предлагает нанесение кодов «Честный знак» на товары по техническому заданию. Отдельные отчеты об индивидуальных КИЗ и транспортной агрегации по источнику не установлены.,S004,https://ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov,no,2026-11-02
+F035,C09,СДЭК Фулфилмент,M3,G,Указана проверка читаемости штрихкодов; режим проверки индивидуального Data Matrix не конкретизирован.,S031,https://www.ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov?source=menu,no,2026-11-02
+F036,C09,СДЭК Фулфилмент,M7,D,"Прописаны приемка, упаковка, комплектование и формирование FBO-поставки.",S031,https://www.ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov?source=menu,no,2026-11-02
+F037,C09,СДЭК Фулфилмент,M8,G,"Есть московский тариф, но пределы для маркировочной партии 1 000–10 000 единиц не установлены.",S031,https://www.ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov?source=menu,no,2026-11-02
+F038,C09,СДЭК Фулфилмент,M9,G,"Цены за обычную упаковку/маркировку приведены, за КИЗ отдельно не выделены.",S031,https://www.ff.cdek.ru/uslugi/upakovka-tovarov-dlya-marketplejsov?source=menu,no,2026-11-02
+F039,C10,Fulllog,M1,D,За 8 ₽/ед. заявлены печать и физическое нанесение КИЗ на складе.,S013,https://fulllog.ru/markirovka,no,2026-11-02
+F040,C10,Fulllog,M3,E,"Указан контроль кода при нанесении, без публичного образца результата.",S013,https://fulllog.ru/markirovka,no,2026-11-02
+F041,C10,Fulllog,M4,E,"Заявлен поштучный учет нанесенных кодов и возврат товара в остатки, отчет проверить отдельно.",S013,https://fulllog.ru/markirovka,no,2026-11-02
+F042,C10,Fulllog,M7,D,"На одной площадке маркировка, хранение и отгрузка под WB/Ozon.",S013,https://fulllog.ru/markirovka,no,2026-11-02
+F043,C10,Fulllog,M8,G,Подходящий объем/минимум маркировочной партии требует уточнения.,S013,https://fulllog.ru/markirovka,no,2026-11-02
+F044,C10,Fulllog,M9,D,"Прайс указывает 8 ₽/ед. именно за КИЗ, упаковка/стикеровка отдельно.",S013,https://fulllog.ru/markirovka,no,2026-11-02
+F045,C16,FFBaza,M1,D,"Публично описаны нанесение и сканирование КИЗ, условия партии и 2 пары тарифных строк.",S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F046,C16,FFBaza,M3,E,Сканирование КИЗ предусмотрено отдельной операцией 3 ₽/шт.,S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F047,C16,FFBaza,M4,G,"Ведется реестр партии, но кодовая выгрузка клиенту и связь товар—код не раскрыты.",S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F048,C16,FFBaza,M7,E,"Услуга склада в Москве с дальнейшей отгрузкой, детали FBO/FBS уточняются.",S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F049,C16,FFBaza,M8,D,"Указаны минимум 100 единиц/2 короба, география Москва; 1 000–10 000 условно в диапазоне, срок согласовывается.",S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F050,C16,FFBaza,M9,D,"Показаны 4/8 и 5/10 ₽ за разные пары нанесения, сканирование 3 ₽; выбор ставки неясен.",S005,https://ffbaza.ru/services/chestnyy-znak,no,2026-11-02
+F051,C17,Re-stok,M1,D,Re-stok отдельно указывает нанесение ранее предоставленного кода «Честного знака» на единицу за 9 ₽; не смешивать с общей «двойной маркировкой» обычными ярлыками.,S023,https://re-stok.ru/,no,2026-11-02
+F052,C17,Re-stok,M3,D,"Отдельное сканирование за 3 ₽, проверка при приемке/сборке.",S023,https://re-stok.ru/,no,2026-11-02
+F053,C17,Re-stok,M4,E,"Заявлена подача сведений/обновление статуса, договорные полномочия и отчет неизвестны.",S024,https://re-stok.ru/tseny/,no,2026-11-02
+F054,C17,Re-stok,M7,D,"Есть упаковка, FBO/FBS и операция с кодами внутри фулфилмента.",S023,https://re-stok.ru/,no,2026-11-02
+F055,C17,Re-stok,M8,G,"Услуги представлены для небольших партий, но подтвержденного модельного срока/предела нет.",S023,https://re-stok.ru/,no,2026-11-02
+F056,C17,Re-stok,M9,E,На страницах за 9 ₽ описан РАЗНЫЙ объем (просто нанесение vs нанесение+сканирование+сведения).,S024,https://re-stok.ru/tseny/,no,2026-11-02
+F057,C18,Скоросклад,M1,G,"Официальная главная упоминает «Честный знак» среди складских услуг, но не описывает получение готовых уникальных КИЗ, их печать и физическое нанесение на отдельные товарные единицы. Слово «маркировка» без операции не проходит M1.",S027,https://skorosklad.ru/,no,2026-11-02
+F058,C18,Скоросклад,M3,E,Сверка кода включена в публичную строку услуги.,S028,https://skorosklad.ru/ceny/,no,2026-11-02
+F059,C18,Скоросклад,M5,G,"В прайсе есть сборка набора, но кодовая привязка вложений не подтверждена.",S028,https://skorosklad.ru/ceny/,no,2026-11-02
+F060,C18,Скоросклад,M7,D,"Описаны упаковка, сборка и две схемы FBO/FBS.",S028,https://skorosklad.ru/ceny/,no,2026-11-02
+F061,C18,Скоросклад,M8,G,"Приведены примеры объемов общего хранения/отгрузок, для операций с КИЗ формат уточнить.",S028,https://skorosklad.ru/ceny/,no,2026-11-02
+F062,C18,Скоросклад,M9,G,"Цена маркировки ЧЗ «по запросу», детализация работы ограничена.",S028,https://skorosklad.ru/ceny/,no,2026-11-02
+F063,C19,4-PACK,M1,D,Печать и физическое нанесение Data Matrix выделены в конкретной услуге и прайсе.,S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F064,C19,4-PACK,M2,D,Four Pack прямо описывает перенос исходного Data Matrix на наружную индивидуальную упаковку той же единицы и отделяет его от транспортного короба с несколькими товарами.,S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F065,C19,4-PACK,M3,E,"Упоминается предварительная проверка кода и доступности сканирования, нет реального лога партии.",S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F066,C19,4-PACK,M7,D,"Есть упаковка, маркировка и складская подготовка к FBO/FBS.",S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F067,C19,4-PACK,M8,D,"Цены разбиты по тиражам 1–999/1000–4999/5000–9999/10000+, применимо к модели.",S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F068,C19,4-PACK,M9,D,"Прайс Four Pack публикует маркировку ЧЗ / дубль от 7 до 3,50 ₽ в зависимости от объема; неизвестные допработы и стоимость материала не приравниваются к полной смете.",S001,https://4-pack.ru/markirovka-chestniy-znak,no,2026-11-02
+F069,C20,RFL,M1,D,"На странице описаны физическое нанесение, сверка и обработка в стоке на складе.",S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F070,C20,RFL,M3,D,Есть сверка и контроль маркировки в складской цепочке.,S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F071,C20,RFL,M4,D,Описаны реестр агрегатов и фиксация кодов при обработке партий.,S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F072,C20,RFL,M6,D,Объявлены короба/паллеты с агрегированием кодов на складе.,S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F073,C20,RFL,M7,E,3PL-склад и последующая отгрузка заявлены; модель FBO/FBS для нужной партии уточняется.,S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F074,C20,RFL,M9,G,Индивидуальный расчет вместо сопоставимой ставки за единицу КИЗ.,S025,https://rfl.ru/markirovka-chestnyy-znak/,no,2026-11-02
+F075,C21,Будет сделано!,M1,G,"Официальный сайт заявляет проверку КИЗ сканером и дубликаты «Честного знака» на транспортировочную упаковку, но первичное нанесение полученных уникальных кодов на каждую единицу не установлено. Не переносить M2 в M1.",S030,https://willbedone.pro/,no,2026-11-02
+F076,C21,Будет сделано!,M3,D,"Заявлены сканирование и проверка статусов по API, а также контроль до отгрузки.",S030,https://willbedone.pro/,no,2026-11-02
+F077,C21,Будет сделано!,M4,D,Есть учет в WMS и выдача клиенту списка проблемных кодов из проверки.,S030,https://willbedone.pro/,no,2026-11-02
+F078,C21,Будет сделано!,M5,G,"Указана физическая комплектация наборов, но не показана таблица соответствия КИЗ вложений.",S030,https://willbedone.pro/,no,2026-11-02
+F079,C21,Будет сделано!,M7,D,"ТЗ на SKU, упаковка и поставка на WB/Ozon FBO/FBS подробно описаны.",S030,https://willbedone.pro/,no,2026-11-02
+F080,C21,Будет сделано!,M8,D,Показан старт с 100 единиц и заявлена мощность 5 000/день; нужны данные по именно маркировке.,S030,https://willbedone.pro/,no,2026-11-02
+F081,C21,Будет сделано!,M9,G,"Есть сметы общего фулфилмента, ставки дубля КИЗ отдельно не подтверждены.",S030,https://willbedone.pro/,no,2026-11-02
+F082,C22,ФуллБокс,M1,D,"Нанесение Data Matrix, сканирование и отдельная складская услуга описаны подробно.",S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F083,C22,ФуллБокс,M3,D,Описан контроль читаемости/статуса КИЗ на приемке и после нанесения.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F084,C22,ФуллБокс,M4,D,Компания заявляет передачу сведений в ЧЗ и подготовку УПД; полномочия отдельно не проверены.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F085,C22,ФуллБокс,M5,G,Упоминает потребительскую упаковку без ясной схемы кода именно набора.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F086,C22,ФуллБокс,M6,D,ФуллБокс заявляет агрегацию индивидуальных Data Matrix в транспортные короба и паллеты; сам сайт не заменяет независимого подтверждения загрузки и принятия документов ГИС МТ.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F087,C22,ФуллБокс,M7,D,"Заявлены упаковка, хранение, маркировка и FBO/FBS в МО.",S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F088,C22,ФуллБокс,M8,G,Сроки 1–2 рабочих дня объявлены без контрольного заказа в модельном диапазоне.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F089,C22,ФуллБокс,M9,E,Прайс «от 4 ₽» без полноценного раскрытия состава маркировочной операции.,S012,https://fullbox.ru/services/chestny-znak/,no,2026-11-02
+F090,C23,U2Pack,M1,D,Страница У2Pack описывает физическое нанесение кодов маркировки по переданному заданию.,S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F091,C23,U2Pack,M3,E,"Сканирование кодов для агрегации названо, контроль статуса каждой единицы не раскрыт.",S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F092,C23,U2Pack,M4,D,Заявлены формирование файла связей и обмен документами; конкретный образец не приведен.,S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F093,C23,U2Pack,M5,G,"Текст смешивает «набор» и SSCC, юридический тип потребительского набора не определен.",S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F094,C23,U2Pack,M6,D,U2Pack прямо заявляет связь SGTIN с SSCC и подготовку файлов транспортной агрегации; условия отправки в ГИС МТ необходимо согласовать отдельно.,S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F095,C23,U2Pack,M7,E,Услуга физической упаковки и отгрузки заявлена; FBO/FBS по категории не разделены.,S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F096,C23,U2Pack,M8,G,Нет подтвержденного минимального объема для модельной партии КИЗ.,S029,https://u2pack.ru/upakovka-tovara/markirovka-tovarov/,no,2026-11-02
+F097,C25,ForMP / Format,M1,G,На официальной странице Format/ForMP описана обычная маркировка под маркетплейсы без отдельного Data Matrix/КИЗ; сохранен G.,S006,https://formp.ru/,no,2026-11-02
+F098,C25,ForMP / Format,M4,G,"Декларируется учет товара, а экспорт связей КИЗ с единицами не раскрыт.",S006,https://formp.ru/,no,2026-11-02
+F099,C25,ForMP / Format,M7,D,Склад в Москве и услуги WB/Ozon FBO в подробностях описаны на формp.ru.,S006,https://formp.ru/,no,2026-11-02
+F100,C25,ForMP / Format,M8,G,"Указана общая скорость от 2 дней, не верифицирован именно объем маркировки.",S006,https://formp.ru/,no,2026-11-02
+F101,C25,ForMP / Format,M9,G,"Есть прайс общих операций, за КИЗ отдельный тариф по источнику не подтвержден.",S006,https://formp.ru/,no,2026-11-02
+F102,C26,Easyful,M1,D,Easyful выделяет стикерование КИЗ от 4 ₽ и сканирование КИЗ от 2 ₽ как разные тарифные операции; результаты сканирования документально не представлены.,S003,https://easyful.ru/uslugi,no,2026-11-02
+F103,C26,Easyful,M3,E,Official service list explicitly prices KIZ scanning from 2 RUB/unit; no scan log supplied.,S003,https://easyful.ru/uslugi,no,2026-11-02
+F104,C26,Easyful,M4,G,"В личном кабинете видны движения, но журнал уникальных КИЗ не показан.",S002,https://easyful.ru/about,no,2026-11-02
+F105,C26,Easyful,M7,D,"Сервис FBO/FBS, упаковка и поставки WB/Ozon описаны на сайте.",S003,https://easyful.ru/uslugi,no,2026-11-02
+F106,C26,Easyful,M8,G,Подходящий объем КИЗ-партии не определен; опубликованы общие тарифы.,S003,https://easyful.ru/uslugi,no,2026-11-02
+F107,C26,Easyful,M9,D,KIZ stickering and scan rates separately disclosed; no complete batch quote.,S003,https://easyful.ru/uslugi,no,2026-11-02
+F108,C27,Fulmarket,M1,G,На fulfmarket.com публичная HTML-выдача требует JavaScript; источник из этапа 4 не подтверждает отдельную операцию КИЗ. Не смешивать с ful-market.ru.,S009,https://fulfmarket.com/,no,2026-11-02
+F109,C27,Fulmarket,M7,D,Есть фулфилмент для Wildberries/Ozon и склад в Люберцах.,S009,https://fulfmarket.com/,no,2026-11-02
+F110,C27,Fulmarket,M8,G,"Общий масштаб склада заявлен, готовность именно КИЗ-партии не доказана.",S009,https://fulfmarket.com/,no,2026-11-02
+F111,C35,Фулмаркет (ful-market.ru; distinct from fulfmarket.com),M1,E,"Официальный прайс указывает физическую наклейку стикера на товар, включая «Честный знак». Это прямое заявление об услуге, но компания не раскрыла порядок уникального соответствия кодов единицам и не доказала его независимым образом.",S007,https://ful-market.ru/,no,2026-11-02
+F112,C35,Фулмаркет (ful-market.ru; distinct from fulfmarket.com),M5,G,Packing sets is mentioned without binding the constituent KIZ to a consumer-set code.,S007,https://ful-market.ru/,no,2026-11-02
+F113,C35,Фулмаркет (ful-market.ru; distinct from fulfmarket.com),M7,D,"Physical receipt, packing, marking and shipment to WB/Ozon plus Moscow warehouse location.",S007,https://ful-market.ru/,no,2026-11-02
+F114,C35,Фулмаркет (ful-market.ru; distinct from fulfmarket.com),M8,D,"Published tariff bands for 2,000-10,000 units overlap the model order (not a validated KIZ workflow).",S007,https://ful-market.ru/,no,2026-11-02
+F115,C35,Фулмаркет (ful-market.ru; distinct from fulfmarket.com),M9,D,"Официальный прайс указывает услугу наклейки на товар с «Честным знаком» «от 6 ₽»; цена относится к указанной стикеровке, а не к агрегации, регистрации ГИС МТ или аудиту кодов.",S007,https://ful-market.ru/,no,2026-11-02

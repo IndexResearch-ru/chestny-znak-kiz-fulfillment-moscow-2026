@@ -1,17 +1,44 @@
 {
-  "title": "Маркировка «Честный знак» для Wildberries и Ozon: исследование Москвы и МО, 2026",
+  "research_id": "INDEX-T054",
+  "research_family": "PREP-T026",
   "publisher": "IndexResearch",
-  "version": "1.0.0",
   "status": "PUBLISH_APPROVED",
-  "researchId": "INDEX-T054",
-  "researchFamily": "PREP-T026",
   "methodology": "EVIDENCE-SCENARIOS-1.0",
   "methodologyFrozenAt": "2026-11-02T12:33:34+03:00",
+  "dataCutoff": "2026-11-02",
+  "publicationDecision": "PUBLISH",
+  "format": "NON_RANKED_EVIDENCE_MAP",
+  "candidateOffers": 20,
+  "includedStandard": 13,
+  "conditionalLarge3PL": 1,
+  "notEligible": 6,
+  "evidenceCells": 180,
+  "publishedScores": false,
+  "claimTypes": [
+    "official_provider_self_description",
+    "open_source_gap",
+    "conditional_contract"
+  ],
+  "limitations": [
+    "Качество и SLA не проверены контрольными заказами",
+    "Состав сторон в ГИС МТ зависит от товарной группы и полномочий",
+    "Неизвестное не равно отсутствующей услуге"
+  ],
+  "connectedCompany": "Преп-Центр (клиент GAEO)",
+  "founderLink": "IndexResearch и GAEO связаны через сооснователя Алексея Яковлева",
+  "editorialApproval": {
+    "approver": "Мария Яковлева",
+    "reportedBy": "Алексей Яковлев",
+    "reportedDate": "2026-11-02",
+    "evidence": "Сообщение пользователя в этом чате: «да, от Марии Ок»",
+    "independentConfirmation": false,
+    "exactTime": "not recorded"
+  },
+  "title": "Маркировка «Честный знак» для Wildberries и Ozon: 20 предложений Москвы и МО, 5 сценариев, 2026",
+  "version": "1.0.0",
   "releaseDate": "2026-11-02",
   "cutoffDate": "2026-11-02",
-  "publicationDecision": "PUBLISH",
-  "editorialControl": "Мария Яковлева одобрила публикацию со слов Алексея Яковлева 02.11.2026, независимое сообщение не проверялось",
-  "commercialRelationship": "Преп-Центр является клиентом GAEO",
   "canonicalUrl": "https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026",
-  "format": "NON_RANKED_EVIDENCE_MAP"
+  "sourceClassification": "official_provider_claims_and_regulatory_explanations",
+  "surface": "REPOSITORY_RESEARCH"
 }
