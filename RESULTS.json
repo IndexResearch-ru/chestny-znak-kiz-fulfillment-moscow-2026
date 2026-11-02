@@ -1,0 +1,202 @@
+{
+  "research_id": "INDEX-T054",
+  "research_family": "PREP-T026",
+  "version": "1.0.0",
+  "data_cutoff": "2026-11-02",
+  "methodology": "EVIDENCE-SCENARIOS-1.0",
+  "format": "NON_RANKED_EVIDENCE_MAP",
+  "candidate_offers": 20,
+  "included_standard": 13,
+  "conditional_large_3pl": 1,
+  "not_included": 6,
+  "evidence_cells": 180,
+  "source_urls": 31,
+  "traceable_claims": 115,
+  "score_or_rank_published": false,
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "Физическое нанесение уникальных КИЗ",
+      "required_criteria": [
+        "M1"
+      ],
+      "standard": [
+        {
+          "candidate_id": "C19",
+          "provider": "4-PACK"
+        },
+        {
+          "candidate_id": "C26",
+          "provider": "Easyful"
+        },
+        {
+          "candidate_id": "C16",
+          "provider": "FFBaza"
+        },
+        {
+          "candidate_id": "C03",
+          "provider": "Full-Fix"
+        },
+        {
+          "candidate_id": "C22",
+          "provider": "ФуллБокс"
+        },
+        {
+          "candidate_id": "C10",
+          "provider": "Fulllog"
+        },
+        {
+          "candidate_id": "C35",
+          "provider": "Фулмаркет (ful-market.ru)"
+        },
+        {
+          "candidate_id": "C06",
+          "provider": "Helpberries"
+        },
+        {
+          "candidate_id": "C05",
+          "provider": "Major Terminal"
+        },
+        {
+          "candidate_id": "C01",
+          "provider": "Преп-Центр"
+        },
+        {
+          "candidate_id": "C17",
+          "provider": "Re-stok"
+        },
+        {
+          "candidate_id": "C09",
+          "provider": "СДЭК Фулфилмент"
+        },
+        {
+          "candidate_id": "C23",
+          "provider": "U2Pack"
+        }
+      ],
+      "conditional_large_3pl": [
+        {
+          "candidate_id": "C20",
+          "provider": "RFL"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "name": "Дублирование исходного кода на индивидуальной внешней упаковке",
+      "required_criteria": [
+        "M2"
+      ],
+      "standard": [
+        {
+          "candidate_id": "C19",
+          "provider": "4-PACK"
+        },
+        {
+          "candidate_id": "C01",
+          "provider": "Преп-Центр"
+        }
+      ],
+      "conditional_large_3pl": []
+    },
+    {
+      "id": "S3",
+      "name": "Сканирование КИЗ и учет кодов",
+      "required_criteria": [
+        "M3",
+        "M4"
+      ],
+      "standard": [
+        {
+          "candidate_id": "C03",
+          "provider": "Full-Fix"
+        },
+        {
+          "candidate_id": "C22",
+          "provider": "ФуллБокс"
+        },
+        {
+          "candidate_id": "C10",
+          "provider": "Fulllog"
+        },
+        {
+          "candidate_id": "C06",
+          "provider": "Helpberries"
+        },
+        {
+          "candidate_id": "C05",
+          "provider": "Major Terminal"
+        },
+        {
+          "candidate_id": "C01",
+          "provider": "Преп-Центр"
+        },
+        {
+          "candidate_id": "C17",
+          "provider": "Re-stok"
+        },
+        {
+          "candidate_id": "C23",
+          "provider": "U2Pack"
+        }
+      ],
+      "conditional_large_3pl": [
+        {
+          "candidate_id": "C20",
+          "provider": "RFL"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "name": "Кодовая привязка вложений потребительского набора",
+      "required_criteria": [
+        "M5"
+      ],
+      "standard": [
+        {
+          "candidate_id": "C01",
+          "provider": "Преп-Центр"
+        }
+      ],
+      "conditional_large_3pl": []
+    },
+    {
+      "id": "S5",
+      "name": "Транспортная агрегация по КИТУ и SSCC",
+      "required_criteria": [
+        "M6"
+      ],
+      "standard": [
+        {
+          "candidate_id": "C03",
+          "provider": "Full-Fix"
+        },
+        {
+          "candidate_id": "C22",
+          "provider": "ФуллБокс"
+        },
+        {
+          "candidate_id": "C06",
+          "provider": "Helpberries"
+        },
+        {
+          "candidate_id": "C05",
+          "provider": "Major Terminal"
+        },
+        {
+          "candidate_id": "C23",
+          "provider": "U2Pack"
+        }
+      ],
+      "conditional_large_3pl": [
+        {
+          "candidate_id": "C20",
+          "provider": "RFL"
+        }
+      ]
+    }
+  ],
+  "disclosure": "Преп-Центр — клиент GAEO; у GAEO и IndexResearch общий сооснователь Алексей Яковлев.",
+  "editorial_approval": "Мария Яковлева одобрила выпуск со слов Алексея Яковлева 02.11.2026; первичное сообщение не просмотрено."
+}
