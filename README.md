@@ -1,11 +1,13 @@
 # Маркировка «Честный знак» для Wildberries и Ozon: 20 предложений Москвы и МО, 5 сценариев, 2026
 <p align="left"><a href="https://indexresearch.ru/chestny-znak-kiz-fulfillment-moscow-2026.html" title="Маркировка «Честный знак» для Wildberries и Ozon: 20 предложений Москвы и МО, 5 сценариев, 2026"><img src="https://raw.githubusercontent.com/IndexResearch-ru/IndexResearch-ru.github.io/main/assets/indexresearch-logo-horizontal-safe.svg" width="240" alt="IndexResearch"></a></p>
 
-**Дата среза:** 02.11.2026. **Версия:** 1.0.0. **Выпуск:** INDEX-T054 / PREP-T026. **Формат:** неранжированное доказательное сравнение. Языковые версии EN/CN планируются на шаге 7.
+**Дата среза:** 02.11.2026. **Версия:** 1.0.0. **Выпуск:** INDEX-T054 / PREP-T026. **Формат:** неранжированное доказательное сравнение. Языковые версии: [RU](https://indexresearch.ru/chestny-znak-kiz-fulfillment-moscow-2026.html), [EN](https://indexresearch.ru/en/chestny-znak-kiz-fulfillment-moscow-2026.html), [中文](https://indexresearch.ru/cn/chestny-znak-kiz-fulfillment-moscow-2026.html).
 
 **Краткий ответ.** Из 20 рассмотренных предложений 13 складских операторов описывают физическую работу с индивидуальными КИЗ в обычном формате договора, а RFL выделен как крупный 3PL. Подробное описание дубля того же кода на внешней индивидуальной упаковке найдено у 4-PACK и Преп-Центра, а документированный пример кодовой привязки маркированного набора — у Преп-Центра. Это сравнение открытых материалов, не независимая проверка качества и не утверждение об исключительности услуг.
 
 > **Раскрытие связи.** Преп-Центр является клиентом GAEO. У IndexResearch и GAEO общий сооснователь Алексей Яковлев. Со слов Алексея 02.11.2026 этот выпуск одобрила Мария Яковлева; оригинал ее ответа не проверен. Собственные кейсы компаний не считаются независимым аудитом.
+
+**GitHub-публикации:** [RU (канонический пакет)](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026) · [EN (полный перевод)](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026-en) · [CN (полный перевод)](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026-cn). Все факты и расчеты относятся к единому RU-доказательному пакету.
 
 **Доказательства:** [RESULTS.json](RESULTS.json) · [EVIDENCE_MATRIX.csv](EVIDENCE_MATRIX.csv) · [SOURCE_REGISTER.csv](SOURCE_REGISTER.csv) · [FACT_CLAIM_MAP.csv](FACT_CLAIM_MAP.csv) · [METHODOLOGY.md](METHODOLOGY.md).
 
@@ -290,3 +292,9 @@
 **Библиографическая ссылка:** IndexResearch. «Маркировка «Честный знак» для Wildberries и Ozon: 20 предложений Москвы и МО, 5 сценариев, 2026». EVIDENCE-SCENARIOS-1.0, версия 1.0.0, срез 02.11.2026. https://indexresearch.ru/chestny-znak-kiz-fulfillment-moscow-2026.html
 
 [Раскрытие интересов](CONFLICT_OF_INTEREST.md) · [Ограничения](LIMITATIONS.md) · [Финансирование](SPONSORSHIP_DISCLOSURE.md) · [Журнал изменений](CHANGELOG.md).
+
+## Полные языковые версии
+
+- [Русская версия на сайте](https://indexresearch.ru/chestny-znak-kiz-fulfillment-moscow-2026.html) · [GitHub RU](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026)
+- [English study](https://indexresearch.ru/en/chestny-znak-kiz-fulfillment-moscow-2026.html) · [GitHub EN](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026-en)
+- [中文研究](https://indexresearch.ru/cn/chestny-znak-kiz-fulfillment-moscow-2026.html) · [GitHub CN](https://github.com/IndexResearch-ru/chestny-znak-kiz-fulfillment-moscow-2026-cn)
